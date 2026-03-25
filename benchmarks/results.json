@@ -1,0 +1,64 @@
+{
+  "FP16": {
+    "build_time_ms": 0.05870795575901866,
+    "memory_bytes": 12288,
+    "bits_per_dim": 16.0,
+    "compression_ratio": 1.0,
+    "avg_latency_ms": 1.211416623846162,
+    "p50_latency_ms": 0.007813010597601533,
+    "p99_latency_ms": 16.31985167914535,
+    "n_queries": 16
+  },
+  "TQ-2bit": {
+    "build_time_ms": 13.006041990593076,
+    "memory_bytes": 1600.0,
+    "bits_per_dim": 2.0833333333333335,
+    "compression_ratio": 7.68,
+    "avg_latency_ms": 0.13588799265562557,
+    "p50_latency_ms": 0.09741648682393134,
+    "p99_latency_ms": 0.3860661090584471,
+    "n_queries": 16,
+    "recall@1": 0.9375,
+    "recall@5": 0.9,
+    "recall@10": 0.90625
+  },
+  "TQ-3bit": {
+    "build_time_ms": 0.37645897828042507,
+    "memory_bytes": 2368.0,
+    "bits_per_dim": 3.0833333333333335,
+    "compression_ratio": 5.1891891891891895,
+    "avg_latency_ms": 0.12470570072764531,
+    "p50_latency_ms": 0.08693747804500163,
+    "p99_latency_ms": 0.5909062980208544,
+    "n_queries": 16,
+    "recall@1": 0.8125,
+    "recall@5": 0.8875,
+    "recall@10": 0.9375
+  },
+  "TQ-4bit": {
+    "build_time_ms": 0.41874998714774847,
+    "memory_bytes": 3136.0,
+    "bits_per_dim": 4.083333333333333,
+    "compression_ratio": 3.9183673469387754,
+    "avg_latency_ms": 0.0883149441506248,
+    "p50_latency_ms": 0.08227050420828164,
+    "p99_latency_ms": 0.1279410091228783,
+    "n_queries": 16,
+    "recall@1": 0.9375,
+    "recall@5": 0.95,
+    "recall@10": 0.9625
+  },
+  "Binary": {
+    "build_time_ms": 2.6219579740427434,
+    "memory_bytes": 768.0,
+    "bits_per_dim": 1.0,
+    "compression_ratio": 16.0,
+    "avg_latency_ms": 0.08984387386590242,
+    "p50_latency_ms": 0.010937510523945093,
+    "p99_latency_ms": 1.0783205536426972,
+    "n_queries": 16,
+    "recall@1": 0.0625,
+    "recall@5": 0.5125,
+    "recall@10": 0.7625
+  }
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.env
+.env.local
+data/notion_embeddings.npy
+data/notion_chunks.jsonl
+data/notion_metadata.jsonl
+data/test_queries.json
+*.npy
+.DS_Store
